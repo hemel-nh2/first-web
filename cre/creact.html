@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Creact Acount</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="sty.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="jquery.passwordstrength.js"></script>
+</head>
+<body>
+	<div class="color">
+	<div class="form-box">
+		<h1>Create a new account</h1>
+		<form>
+				<div class="inputBox">
+					<input type="text" name="" placeholder="Username">
+				<div class="inputBox">
+					<input type="email" name="" placeholder="Email id">
+				<div class="inputBox">
+					<input type="text" name="" placeholder="Phone number">
+				</div>
+				<div class="inputBox">
+					<input type="password" id="password" name="" placeholder="password">
+				<div class="inputBox">
+					<input type="password" name="" placeholder="rey type password">
+				</div>
+				<div class="button">
+					<input type="submit" name="submit" value="Create account">
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+
+	<div class="social-icons">
+			<ul>
+				<li><a href="#"><img src="f.png"></a></li>
+				<li><a href="#"> <img src="is.png"></a></li>
+				<li><a href="#"> <img src="tw.png"></a></li>
+				<li><a href="#"> <img src="in.png"></a></li>
+			</ul>
+		</div>
+
+
+		<script type="text/javascript">
+    $(function() {
+        $("#password").passwordStrength();
+    });
+</script> 
+
+
+
+</body>
+</html>
